@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 540;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 30px;
+}
+
+nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    color: #a8a7a7;
+    transition: all .4s;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+    padding: 8px 15px;
+    background-color: transparent;
+    margin: 0 10px;
+}
+
+#register {
+    border: 2px solid #c7c4c4;
+    transition: all .4s;
+}
+
+#login {
+    border: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+main p {
+    width: 70%;
+    font-size: 17px;
+    margin: 20px 0;
+    color: #7e7b7b;
+}
+
+main button {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 10px;
+    transition: all .4s;
+}
+
+main img {
+    width: 400px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main button:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+ul li:hover {
+    color: #000;
+}
+
+#register:hover {
+    border: 2px solid #000;
+}
+
+.menu {
+    position: relative;
+    top: -50px;
+    width: 100%;
+    margin: 0 10px;
+    height: 0% !important;
+}
+
+.companyMenu {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    transition: all .5s ease !important;
+    position: absolute;
+    height: 0%;
+    top: 60px;
+    width: max-content;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.companyMenu li {
+    margin: 13px 0;
+    color: #222;
+}
+
+.featuresMenu {
+    right: 20px;
+}
+
+#company:hover div ul {
+    height: 145px;
+    padding: 5px 10px;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 3px 12px 19px 0px rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 6px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+#features:hover div ul {
+    display: inline !important;
+    height: 160px;
+    padding: 5px 10px;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 3px 12px 19px 0px rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 6px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
